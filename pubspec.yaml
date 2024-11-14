@@ -1,0 +1,39 @@
+name: cloth_store
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mens_tshirt.jpg
+    - assets/mens_jeans.jpg
+    - assets/mens_jacket.jpg
+    - assets/mens_sherwani.jpg
+    - assets/mens_hoodie.jpg
+    - assets/mens_formal.jpg
+    - assets/womens_tshirt.jpg
+    - assets/womens_jeans.jpg
+    - assets/womens_dress.jpg
+    - assets/womens_saree.jpg
+    - assets/womens_blouse.jpg
+    - assets/womens_skirt.jpg
+    - assets/kids_tshirt.jpg
+    - assets/kids_jeans.jpg
+    - assets/kids_shorts.jpg
+    - assets/kids_dress.jpg    # Added Kids' Dress image
+    - assets/home_background.jpg
